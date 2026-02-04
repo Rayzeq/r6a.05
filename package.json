@@ -9,7 +9,7 @@
     "lib": "lib",
     "test": "test"
   },
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node server",
     "test": "lab -a @hapi/code -I \"__core-js_shared__,CSS,regeneratorRuntime,core\" -L",
@@ -17,9 +17,12 @@
   },
   "dependencies": {
     "@hapi/boom": "9.x.x",
+    "@hapi/jwt": "^3.2.3",
     "@hapipal/haute-couture": "4.x.x",
+    "@hapipal/schmervice": "^3.0.0",
     "@hapipal/schwifty": "6.x.x",
     "joi": "17.x.x",
+    "mysql2": "^2.3.3",
     "objection": "2.x.x"
   },
   "peerDependencies": {
@@ -31,8 +34,8 @@
     "@hapi/eslint-plugin-hapi": "4.x.x",
     "@hapi/glue": "8.x.x",
     "@hapi/hapi": "20.x.x",
-    "@hapi/inert": "6.x.x",
     "@hapi/hoek": "9.x.x",
+    "@hapi/inert": "6.x.x",
     "@hapi/lab": "24.x.x",
     "@hapi/vision": "6.x.x",
     "@hapipal/confidence": "6.x.x",
