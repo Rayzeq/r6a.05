@@ -23,6 +23,7 @@
     "@hapipal/schwifty": "6.x.x",
     "joi": "17.x.x",
     "mysql2": "^2.3.3",
+    "nodemailer": "^8.0.0",
     "objection": "2.x.x"
   },
   "peerDependencies": {
